@@ -12,18 +12,19 @@ const books = [
     { title: 'The Odyssey', author: 'Homer', publicationYear: -800, isAvailable: true },
 ];
 
-const getAvailableBooks=books.filter(function (array) {
+const getAvailableBooks=books.filter(function (title) {
     return books.title
 })
-console.log(getAvailableBooks());
+console.log(getAvailableBooks);
 
 // Create a function getBooksByAuthor that takes an author's name as an argument and
 // returns an array of all books by that author.
 
 const getBooksByAuthor=books.filter(function(Homer){
-return books.author.Homer
+return books.author
 })
-console.log(getBooksByAuthor());
+// let author=Homer
+console.log(getBooksByAuthor);
 
 // 3. Create a function addNewBook that takes a book object as an argument and adds it
 // to the library, ensuring that the new book has all required properties (title, author,
@@ -40,7 +41,7 @@ const checkoutBook=books.filter(function(theodyssey){
     }
 })
 
-checkoutBook();
+console.log(checkoutBook);
 
 // 5. Create a function returnBook that takes a book title as an argument and changes the
 // book's isAvailable property to true. If the book is not found in the library, the function
@@ -56,5 +57,5 @@ const returnBook=books.filter(function(thegreatgatsby){
         }
     }
 });
-let book="The Great Gatsby"
-returnBook()
+// let book="The Great Gatsby"
+console.log(returnBook);
